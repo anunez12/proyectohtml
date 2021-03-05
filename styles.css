@@ -1,0 +1,30 @@
+h1,h2,h3,h4,h5,h6,p,a{
+    font-family: 'Roboto'!important;
+}
+
+.h100vh_ {
+    height: 100vh;
+}
+section.cover {      
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/bg_cover.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section.cover h1{
+    font-size: 5rem;
+    text-align: center;
+}
+h1.titleSection{
+    color:#025c9d;
+    font-weight: 700;
+}
+h3.slogan{
+    color: #000;
+    margin: 0px 0px 260px 0px;
+    text-align: center;
+    font-size: 30px;
+}
