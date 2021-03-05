@@ -57,3 +57,66 @@ table.table.contadores {
     color: #000;
     font-size: 3rem;
 }
+/*Grid reparto*/
+.gd-m-4 {
+    grid-template-columns: repeat(4,1fr);
+}
+.gd-xs-2 {
+    grid-template-columns: repeat(2,1fr);
+}
+.gd-gap-15 {
+    grid-gap: .9375rem;
+}
+.gd {
+    display: grid;
+}
+.person-card.person-card-col {
+    text-align: center;
+}
+.ovw .person-card {
+    margin-bottom: .9375rem;
+}
+.person-card {
+    position: relative;
+}
+.thumbnail {
+    position: relative;
+    margin-bottom: .3125rem;
+    z-index: 0;
+}
+figure {
+    margin: 0;
+}
+.thumbnail-container, .thumbnail-link {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+.thumbnail-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.person-card .meta-title {
+    margin-bottom: 0;
+}
+.meta-title {
+    font-size: .9375rem;
+}
+.person-card .meta-title-link {
+    font-weight: 700;
+    color: #015d9d;
+    text-decoration: none;
+}
+.person-card-col .meta-title-link:after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+section.reparto {
+    margin-bottom: 40px;
+}
